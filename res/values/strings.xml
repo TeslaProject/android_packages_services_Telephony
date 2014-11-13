@@ -1283,4 +1283,39 @@
     <string name="voicemail_notification_vibrate_key">voicemail_notification_vibrate_key</string>
     <!-- DO NOT TRANSLATE. Internal key for tty mode preference. -->
     <string name="tty_mode_key">button_tty_mode_key</string>
+
+    <!-- Number lookup -->
+    <string name="number_lookup">Phone number lookup</string>
+    <string name="enable_forward_lookup_title">Forward lookup</string>
+    <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
+    <string name="enable_people_lookup_title">People lookup</string>
+    <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
+    <string name="enable_reverse_lookup_title">Reverse lookup</string>
+    <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
+    <string name="choose_lookup_providers">Choose lookup providers</string>
+    <string name="choose_forward_lookup_provider_title">Choose forward lookup provider</string>
+    <string name="choose_people_lookup_provider_title">Choose people lookup provider</string>
+    <string name="choose_reverse_lookup_provider_title">Choose reverse lookup provider</string>
+
+    <!-- Chinese Reverse Lookup Provider -->
+    <string name="cyngn_reverse_lookup_provider_package" translatable="false">com.cyngn.chineselocationlookup</string>
+    <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+    <string name="cyngn_reverse_lookup_provider_value" translatable="false">CyngnChinese</string>
+
+    <!-- Advanced Settings -->
+    <string name="advanced_setting">Advanced Settings</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Blacklist</string>
+    <string name="blacklist_summary_disabled">Disabled</string>
+    <string name="blacklist_summary">Incoming calls from phone numbers in the blacklist will be blocked</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">Blocked a call from %s</string>
+    <string name="blacklist_notification_private_number">Blocked a call from a private number</string>
+    <string name="blacklist_notification_list_private">Private</string>
+    <string name="blacklist_notification_unknown_number">Blocked unknown number %s</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> calls were blocked</string>
+    <string name="unblock_number">Unblock</string>
+
 </resources>
